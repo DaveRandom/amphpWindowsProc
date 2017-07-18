@@ -1,0 +1,11 @@
+{
+  "name": "temp/whatever",
+  "description": "Stuff",
+  "minimum-stability": "dev",
+  "require": {
+    "amphp/amp": "2.0.x-dev"
+  },
+  "autoload": {
+    "psr-4": {"WindowsProc\\":"src/"}
+  }
+}
